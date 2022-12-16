@@ -1,0 +1,72 @@
+:root {
+  --header-footer-bg: #1c1c1c;
+  --white: #ededed;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* Centralizar Header */
+.centeredHeading {
+  text-align: center;
+}
+
+/* Sobre nós */
+.sobrenos {
+  text-align: center;
+  margin: 50px;
+  font-size: 1.5rem;
+}
+
+/* Nosso Time */
+.marketing .col-lg-4 {
+  margin-bottom: 1.5rem;
+  text-align: center;
+}
+
+.marketing h2 {
+  font-weight: 400px;
+  width: 100%;
+  margin-left: 200px;
+}
+.marketing .col-lg-4 p {
+  margin-right: 0.75rem;
+  margin-left: 0.75rem;
+}
+
+.foto-contato {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-top: 200px;
+  margin-left: 300px;
+}
+
+#texto-time {
+  color: black;
+  width: 100%;
+  margin-left: 200px;
+}
+
+/* Página de error */
+.nopagelayout {
+  text-align: center;
+  font-size: 1.5rem;
+}
+
+.imgerror {
+  width: 100%;
+}
+
+@keyframes zoomIn {
+  from {
+    transform: scale(0.3);
+  }
+  to {
+    transform: scale(1);
+  }
+}
