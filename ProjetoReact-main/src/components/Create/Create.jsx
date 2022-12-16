@@ -24,10 +24,10 @@ const Create = () => {
   function submitForm(e) {
     e.preventDefault();
     if (
-      nome.length === 0 ||
-      descricao.length === 0 ||
-      preco.length === 0 ||
-      imgl.length === 0
+      nome.length === " " ||
+      descricao.length === " " ||
+      preco.length === " " ||
+      imgl.length === " "
     ) {
       alert("Existe algum campo em branco");
     } else if (descricao.length > 100) {
