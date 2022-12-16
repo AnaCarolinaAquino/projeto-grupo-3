@@ -1,4 +1,4 @@
-<h1>Projeto REACT módulo 3<h1>
+<h1>Projeto REACT módulo 3</h1>
 
 Projeto para conhecimentos da biblioteca react e request com axios.
 
