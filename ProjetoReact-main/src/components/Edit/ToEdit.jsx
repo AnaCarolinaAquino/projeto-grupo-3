@@ -29,7 +29,7 @@ const ToEdit = () => {
 
   function Atualizar(e) {
     e.preventDefault();
-    if (nome.length === 0 || descricao.length === 0 || preco.length === 0 || imgl.length === 0) {
+    if (nome.length === " " || descricao.length === " "|| preco.length === " ") {
       alert("Campo em branco")
     } else if (descricao.length > 100) {
       alert("Atingiu o número máximo de caracteres permitidos")
